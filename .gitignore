@@ -1,4 +1,24 @@
-env/ 
-__pycache__/ 
-*.pyc 
-db.sqlite3 
+# Virtual environments
+env/
+venv/
+ENV/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# SQLite database (local dev)
+db.sqlite3
+
+# Environment variables
+.env
+
+# Static files collected for production
+staticfiles/
+
+# Media (optional if using cloud storage in production)
+media/
+
+# VSCode settings (optional)
+.vscode/
